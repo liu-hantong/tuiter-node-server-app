@@ -11,6 +11,7 @@ const schema = mongoose.Schema({
     tweets: String,
     image: String,
     time: String,
+    topic: String,
     userName: String
 }, {collection: 'tuits'});
 export default schema;
